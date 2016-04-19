@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  XYCalendar
 //
-//  Created by apple on 16/4/19.
-//  Copyright © 2016年 apple. All rights reserved.
+//  Created by 中科创奇 on 15/5/18.
+//  Copyright (c) 2015年 中科创奇. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+#import "XYCalendarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +19,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+
+    
+    
+    
+    
+    XYCalendarViewController * xy = [[XYCalendarViewController alloc]init];
+    xy.monthDate = @"2015-06";
+    UINavigationController * na = [[UINavigationController alloc]initWithRootViewController:xy];
+    
+    self.window.rootViewController = na;
+    
+   
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

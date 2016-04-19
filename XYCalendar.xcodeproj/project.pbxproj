@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18654CB31CC6341C0094519D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CB21CC6341C0094519D /* main.m */; };
-		18654CB61CC6341C0094519D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CB51CC6341C0094519D /* AppDelegate.m */; };
-		18654CB91CC6341C0094519D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CB81CC6341C0094519D /* ViewController.m */; };
-		18654CBC1CC6341C0094519D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18654CBA1CC6341C0094519D /* Main.storyboard */; };
-		18654CBE1CC6341C0094519D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18654CBD1CC6341C0094519D /* Assets.xcassets */; };
-		18654CC11CC6341D0094519D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18654CBF1CC6341D0094519D /* LaunchScreen.storyboard */; };
 		18654CCC1CC6341D0094519D /* XYCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CCB1CC6341D0094519D /* XYCalendarTests.m */; };
 		18654CD71CC6341D0094519D /* XYCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CD61CC6341D0094519D /* XYCalendarUITests.m */; };
+		18654CF51CC634700094519D /* NSDate+XYCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CE61CC634700094519D /* NSDate+XYCalendarLogic.m */; };
+		18654CF61CC634700094519D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CE91CC634700094519D /* AppDelegate.m */; };
+		18654CF71CC634700094519D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18654CEA1CC634700094519D /* Images.xcassets */; };
+		18654CF81CC634700094519D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18654CEB1CC634700094519D /* Info.plist */; };
+		18654CF91CC634700094519D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CEC1CC634700094519D /* main.m */; };
+		18654CFA1CC634700094519D /* XYCalendarCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CEF1CC634700094519D /* XYCalendarCollectionReusableView.m */; };
+		18654CFB1CC634700094519D /* XYCalendarCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18654CF01CC634700094519D /* XYCalendarCollectionReusableView.xib */; };
+		18654CFC1CC634700094519D /* XYCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CF21CC634700094519D /* XYCalendarCollectionViewCell.m */; };
+		18654CFD1CC634700094519D /* XYCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18654CF41CC634700094519D /* XYCalendarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +39,27 @@
 
 /* Begin PBXFileReference section */
 		18654CAE1CC6341C0094519D /* XYCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18654CB21CC6341C0094519D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18654CB41CC6341C0094519D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18654CB51CC6341C0094519D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18654CB71CC6341C0094519D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18654CB81CC6341C0094519D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18654CBB1CC6341C0094519D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18654CBD1CC6341C0094519D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18654CC01CC6341D0094519D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18654CC21CC6341D0094519D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18654CC71CC6341D0094519D /* XYCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18654CCB1CC6341D0094519D /* XYCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCalendarTests.m; sourceTree = "<group>"; };
 		18654CCD1CC6341D0094519D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18654CD21CC6341D0094519D /* XYCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18654CD61CC6341D0094519D /* XYCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCalendarUITests.m; sourceTree = "<group>"; };
 		18654CD81CC6341D0094519D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18654CE51CC634700094519D /* NSDate+XYCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XYCalendarLogic.h"; sourceTree = "<group>"; };
+		18654CE61CC634700094519D /* NSDate+XYCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XYCalendarLogic.m"; sourceTree = "<group>"; };
+		18654CE81CC634700094519D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18654CE91CC634700094519D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18654CEA1CC634700094519D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18654CEB1CC634700094519D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18654CEC1CC634700094519D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18654CED1CC634700094519D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18654CEE1CC634700094519D /* XYCalendarCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCalendarCollectionReusableView.h; sourceTree = "<group>"; };
+		18654CEF1CC634700094519D /* XYCalendarCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCalendarCollectionReusableView.m; sourceTree = "<group>"; };
+		18654CF01CC634700094519D /* XYCalendarCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYCalendarCollectionReusableView.xib; sourceTree = "<group>"; };
+		18654CF11CC634700094519D /* XYCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		18654CF21CC634700094519D /* XYCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		18654CF31CC634700094519D /* XYCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCalendarViewController.h; sourceTree = "<group>"; };
+		18654CF41CC634700094519D /* XYCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCalendarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +90,8 @@
 		18654CA51CC6341C0094519D = {
 			isa = PBXGroup;
 			children = (
-				18654CB01CC6341C0094519D /* XYCalendar */,
+				18654CE41CC634700094519D /* Calendar */,
+				18654CE71CC634700094519D /* XYCalendar */,
 				18654CCA1CC6341D0094519D /* XYCalendarTests */,
 				18654CD51CC6341D0094519D /* XYCalendarUITests */,
 				18654CAF1CC6341C0094519D /* Products */,
@@ -96,30 +106,6 @@
 				18654CD21CC6341D0094519D /* XYCalendarUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		18654CB01CC6341C0094519D /* XYCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				18654CB41CC6341C0094519D /* AppDelegate.h */,
-				18654CB51CC6341C0094519D /* AppDelegate.m */,
-				18654CB71CC6341C0094519D /* ViewController.h */,
-				18654CB81CC6341C0094519D /* ViewController.m */,
-				18654CBA1CC6341C0094519D /* Main.storyboard */,
-				18654CBD1CC6341C0094519D /* Assets.xcassets */,
-				18654CBF1CC6341D0094519D /* LaunchScreen.storyboard */,
-				18654CC21CC6341D0094519D /* Info.plist */,
-				18654CB11CC6341C0094519D /* Supporting Files */,
-			);
-			path = XYCalendar;
-			sourceTree = "<group>";
-		};
-		18654CB11CC6341C0094519D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				18654CB21CC6341C0094519D /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		18654CCA1CC6341D0094519D /* XYCalendarTests */ = {
@@ -138,6 +124,35 @@
 				18654CD81CC6341D0094519D /* Info.plist */,
 			);
 			path = XYCalendarUITests;
+			sourceTree = "<group>";
+		};
+		18654CE41CC634700094519D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				18654CE51CC634700094519D /* NSDate+XYCalendarLogic.h */,
+				18654CE61CC634700094519D /* NSDate+XYCalendarLogic.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		18654CE71CC634700094519D /* XYCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				18654CE81CC634700094519D /* AppDelegate.h */,
+				18654CE91CC634700094519D /* AppDelegate.m */,
+				18654CEA1CC634700094519D /* Images.xcassets */,
+				18654CEB1CC634700094519D /* Info.plist */,
+				18654CEC1CC634700094519D /* main.m */,
+				18654CED1CC634700094519D /* PrefixHeader.pch */,
+				18654CEE1CC634700094519D /* XYCalendarCollectionReusableView.h */,
+				18654CEF1CC634700094519D /* XYCalendarCollectionReusableView.m */,
+				18654CF01CC634700094519D /* XYCalendarCollectionReusableView.xib */,
+				18654CF11CC634700094519D /* XYCalendarCollectionViewCell.h */,
+				18654CF21CC634700094519D /* XYCalendarCollectionViewCell.m */,
+				18654CF31CC634700094519D /* XYCalendarViewController.h */,
+				18654CF41CC634700094519D /* XYCalendarViewController.m */,
+			);
+			path = XYCalendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18654CC11CC6341D0094519D /* LaunchScreen.storyboard in Resources */,
-				18654CBE1CC6341C0094519D /* Assets.xcassets in Resources */,
-				18654CBC1CC6341C0094519D /* Main.storyboard in Resources */,
+				18654CF81CC634700094519D /* Info.plist in Resources */,
+				18654CF71CC634700094519D /* Images.xcassets in Resources */,
+				18654CFB1CC634700094519D /* XYCalendarCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18654CB91CC6341C0094519D /* ViewController.m in Sources */,
-				18654CB61CC6341C0094519D /* AppDelegate.m in Sources */,
-				18654CB31CC6341C0094519D /* main.m in Sources */,
+				18654CF61CC634700094519D /* AppDelegate.m in Sources */,
+				18654CF91CC634700094519D /* main.m in Sources */,
+				18654CFA1CC634700094519D /* XYCalendarCollectionReusableView.m in Sources */,
+				18654CF51CC634700094519D /* NSDate+XYCalendarLogic.m in Sources */,
+				18654CFC1CC634700094519D /* XYCalendarCollectionViewCell.m in Sources */,
+				18654CFD1CC634700094519D /* XYCalendarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +324,6 @@
 			targetProxy = 18654CD31CC6341D0094519D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		18654CBA1CC6341C0094519D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18654CBB1CC6341C0094519D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18654CBF1CC6341D0094519D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18654CC01CC6341D0094519D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18654CD91CC6341D0094519D /* Debug */ = {
@@ -413,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XYCalendar/PrefixHeader.pch";
 				INFOPLIST_FILE = XYCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhongke.zom.XYCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XYCalendar/PrefixHeader.pch";
 				INFOPLIST_FILE = XYCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhongke.zom.XYCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +499,7 @@
 				18654CDD1CC6341D0094519D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18654CDE1CC6341D0094519D /* Build configuration list for PBXNativeTarget "XYCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +508,7 @@
 				18654CE01CC6341D0094519D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18654CE11CC6341D0094519D /* Build configuration list for PBXNativeTarget "XYCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				18654CE31CC6341D0094519D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

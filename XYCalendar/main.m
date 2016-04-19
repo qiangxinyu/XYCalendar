@@ -2,8 +2,8 @@
 //  main.m
 //  XYCalendar
 //
-//  Created by apple on 16/4/19.
-//  Copyright © 2016年 apple. All rights reserved.
+//  Created by 中科创奇 on 15/5/18.
+//  Copyright (c) 2015年 中科创奇. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
